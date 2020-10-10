@@ -28,7 +28,7 @@ urlpatterns = [
     path('scookie',views.setcookie),  
     path('gcookie',views.getcookie),  
     path('csv',views.getfile),
-    path('pdf',views.getpdf),  
+      
     path('samp/', views.samp),
     path('mail',views.mail),     
 ]
