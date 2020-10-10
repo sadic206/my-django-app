@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+<meta charset="UTF-8">
+ <title>Index</title>
+  {% load static %}
+ </head>
+<body>
+    <h1>Send Email</h1>
+
+
+<form method="POST" class="post-form" enctype="multipart/form-data">
+        {% csrf_token %}
+     
+        {{ form.as_p }}
+<input type="email" id="mail" placeholder="enter email address here..">
+ <textarea style="text-align: center;" width="400px" height="400px" placeholder=>
+     
+
+   <button type="submit" class="save btn btn-default">Save</button>
+    </form>
+
+
+</body>
+
+</html>

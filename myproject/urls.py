@@ -30,6 +30,6 @@ urlpatterns = [
     path('csv',views.getfile),
     path('pdf',views.getpdf),  
     path('samp/', views.samp),
-   
+    path('mail',views.mail),     
 ]
    
